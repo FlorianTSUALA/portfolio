@@ -45,7 +45,8 @@ function rehypeDemoteH1AndStripTitle() {
 }
 
 export default defineConfig({
-  site: 'https://www.cojocarudavid.me',
+  site: 'https://floriantsuala.github.io',
+  base: '/portfolio',
 
   integrations: [expressiveCode({
     themes: ['catppuccin-latte', 'ayu-dark'],
