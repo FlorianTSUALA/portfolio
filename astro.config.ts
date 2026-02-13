@@ -17,7 +17,6 @@ import { pluginCollapsibleSections } from '@expressive-code/plugin-collapsible-s
 import { pluginLineNumbers } from '@expressive-code/plugin-line-numbers'
 
 import tailwindcss from "@tailwindcss/vite";
-import vercel from '@astrojs/vercel';
 
 function rehypeDemoteH1AndStripTitle() {
   return (tree: any) => {
@@ -120,5 +119,4 @@ export default defineConfig({
     remarkPlugins: [remarkMath, remarkEmoji, remarkSectionize],
   },
 
-  adapter: vercel()
 })
