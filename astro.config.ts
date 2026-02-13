@@ -47,6 +47,7 @@ function rehypeDemoteH1AndStripTitle() {
 export default defineConfig({
   site: 'https://floriantsuala.github.io',
   base: '/portfolio',
+  output: 'static',
 
   integrations: [expressiveCode({
     themes: ['catppuccin-latte', 'ayu-dark'],
