@@ -45,8 +45,8 @@ function rehypeDemoteH1AndStripTitle() {
 }
 
 export default defineConfig({
-  site: 'https://floriantsuala.github.io',
-  base: '/portfolio',
+  site: 'https://floriantsuala.github.io/portfolio',
+  base: '/',
   output: 'static',
 
   integrations: [expressiveCode({
